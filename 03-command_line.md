@@ -21,23 +21,32 @@ Here's a list of items with which you should be familiar:
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
 > > 
-- pwd
-- mkdir
+- pwd : show current working directory path
+- cd: changing a directory
+- cd .. : going up one directory
+- mkdir : creating a directory
+- rm -r : deleting a directory
+- touch : creating a file
+- rm : deleting a file
+- mv : renaming a file and moving a file
+- ls -a: listing hidden files
+- ls -alt: listing hidden files in long form sorted by last modified
+- cp : copying a file
 
 ---
 
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  
-`ls -a`  
-`ls -l`  
-`ls -lh`  
-`ls -lah`  
-`ls -t`  
-`ls -Glp`  
+`ls`  : lists all files
+`ls -a`  : lists including hidden ones
+`ls -l`  : lists files in long form which describes access rights, number of hard links, username of the file's owner, name of group that owns the file, the size of the file in bytes, the date & time that the file was last modified, name of file or directory
+`ls -lh` : lists files in long format with readable file size 
+`ls -lah`  : lists files in long format with readable file size including hidden files starting with .
+`ls -t`  : lists files sorted by time/date last modified
+`ls -Glp`  : lists files color coded by file type and with a \ if a directory in long format
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+
 
 ---
 
@@ -45,7 +54,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+- '-p': adds a '/' if the file is a directory
+- '-G': code codes different file types
+- '-d': only directories
+- '-R': displays subqueries as well
+- '-1': displays one entry per line
 
 ---
 
