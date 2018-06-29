@@ -66,7 +66,8 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > It reads data from the standard input and executes the command one or more times based on the input read. For example this will list files that end in txt that have 'xyz' in them.
+find -name "*.txt" | xargs grep "xyz"
 
  
 
