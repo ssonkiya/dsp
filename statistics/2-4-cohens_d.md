@@ -26,9 +26,9 @@
     print('other', others.totalwgt_lb.mean())
 
 
-Mean for the first born weights: 7.201094430437772 \n
-Mean for the others: 7.325855614973262
-Conden's d: -0.0886729
+Mean for the first born weights: 7.201094430437772  
+Mean for the others: 7.325855614973262  
+Conden's d: -0.0886729  
 
-Generally, first borns are slightly lighter than others.
+Generally, first borns are slightly lighter than others.  
 Conden's d is smaller than the difference in pregnancy length, meaning the difference in means is even smaller.
