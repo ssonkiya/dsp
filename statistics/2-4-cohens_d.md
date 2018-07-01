@@ -26,7 +26,7 @@
     print('other', others.totalwgt_lb.mean())
 
 
-Mean for the first born weights: 7.201094430437772
+Mean for the first born weights: 7.201094430437772 \n
 Mean for the others: 7.325855614973262
 Conden's d: -0.0886729
 
